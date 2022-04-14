@@ -67,7 +67,7 @@ h6 {
     height: 3px;
     margin: 25px auto 45px;
     background-color: #fff;
-    
+
 }
 
 .header {
@@ -84,7 +84,7 @@ h6 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .header_logo1 {
@@ -146,7 +146,7 @@ h6 {
     text-decoration: none;
     transition: background .1s linear, color .1s linear;
     opacity: 0.5;
-    
+
 }
 
 .btn:hover {
@@ -154,10 +154,11 @@ h6 {
     color: #fff;
 
     opacity: 1;
-    
+
 
 }
-.section1{
+
+.section1 {
     display: inline-flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -168,7 +169,8 @@ h6 {
     background-size: cover;
     transform: scale(1, -1);
 }
-.ORIO1{
+
+.ORIO1 {
     text-align: center;
     text-decoration: none;
     font-size: 40px;
@@ -179,21 +181,22 @@ h6 {
 
 
 
-.Mem_item{
+.Mem_item {
     display: inline-flex;
     flex-direction: column-reverse;
     justify-content: center;
-    margin:0 auto;
+    margin: 0 auto;
 }
+
 .header_mems1 {
-    
+
     width: 500px;
     height: 600px;
     border-radius: 10px;
     box-shadow: 0px 0px 30px 20px rgba(12, 6, 47, 0.85);
-    
+
     transform: scale(1, -1);
-    
+
 }
 
 .section2 {
@@ -207,28 +210,78 @@ h6 {
     background-size: cover;
     transform: scale(1, 1);
 }
-.About{
+
+.About {
     width: 100%;
     max-width: 1200px;
-    
-    
+
+
     margin: 0 auto;
     text-align: center;
     background: rgba(12, 6, 47, 0.5);
     box-shadow: 0px 0px 30px 20px rgba(12, 6, 47, 0.8);
 }
-.About_Mems1{
+
+.About_Mems1 {
     text-align: center;
     text-decoration: none;
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
-   
-    
-    
+
+
+
 }
-.About_Mems2{
-   margin: 0px 10px 0 10px;
+
+.About_Mems2 {
+    margin: 0px 10px 0 10px;
+    text-align: justify;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    line-height: 2;
+
+}
+
+.section3 {
+    display: inline-flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url("../acces/img/1.png") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    transform: scale(1, -1);
+}
+
+.Service {
+    width: 100%;
+    max-width: 1200px;
+    transform: scale(1, -1);
+
+    margin: 0 auto;
+    text-align: center;
+    background: rgba(12, 6, 47, 0.5);
+    box-shadow: 0px 0px 30px 20px rgba(12, 6, 47, 0.8);
+}
+
+.Service_Mems1 {
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transform: scale(1, 1);
+
+
+
+}
+
+.Service_Mems2 {
+    margin: 0px 10px 0 10px;
     text-align: justify;
     text-decoration: none;
     font-size: 14px;
@@ -236,18 +289,106 @@ h6 {
     text-transform: uppercase;
     
     line-height: 2;
+
+}
+.section4 {
+    display: inline-flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url("../acces/img/1.png") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    transform: scale(1, 1);
+}
+.Work{
+    
+    
+    
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.Work_Mems1{
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0px -40px 40px 20px rgba(12, 6, 47, 0.8);
+   
+    
+    
+}
+.Work_Mems2{
+    margin: 0px 10px 0 10px;
+
+    
+}
+.Work_header_mems1{
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 20px rgba(12, 6, 47, 0.8);
+}
+.Work_header_mems2{
+     width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 20px rgba(12, 6, 47, 0.8);
+    
+}
+.Work_header_mems3{
+     width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 20px rgba(12, 6, 47, 0.8);
     
 }
 
+.section5 {
+    display: inline-flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url("../acces/img/1.png") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    transform: scale(1, -1);
+}
+
+.Contact {
+    width: 100%;
+    max-width: 1200px;
+    transform: scale(1, -1);
+
+
+    margin: 0 auto;
+    text-align: center;
+    background: rgba(12, 6, 47, 0.5);
+    box-shadow: 0px 0px 30px 20px rgba(12, 6, 47, 0.8);
+}
+
+.Contact_Mems1 {
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
 
 
 
+}
 
+.Contact_Mems2 {
+    margin: 0px 10px 0 10px;
+    text-align: justify;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
 
-
-
-
-
-
-
-
+    line-height: 2;
