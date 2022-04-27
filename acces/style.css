@@ -41,6 +41,7 @@ body {
     justify-content: center;
     width: 100%;
     height: 100vh;
+    
 
 
 }
@@ -56,19 +57,13 @@ body {
     font-size: 159px;
     font-weight: 700;
     text-transform: uppercase;
+    text-shadow: 0px 10px 30px 20px rgba(12, 6, 47, 1);
     box-shadow: 0px 0px 30px 20px rgba(12, 6, 47, 0.85);
     line-height: 1;
+    border-radius: 15px;
 }
 
-.intro_title:after {
-    content: "";
-    display: block;
-    width: 100px;
-    height: 3px;
-    margin: 25px auto 45px;
-    background-color: #fff;
 
-}
 
 
 /*Header*/
@@ -102,14 +97,17 @@ body {
 ================*/
 .nav {
     font-size: 20px;
+    
     text-transform: uppercase;
     box-shadow: 0px 0px 30px 20px rgba(12, 6, 47, 1);
+    border-radius: 5px;
 
 }
 
 .nav_link {
     display: inline-block;
     vertical-align: top;
+    font-weight: 600;
     margin: 10px;
     color: #fff;
     text-decoration: none;
@@ -142,6 +140,7 @@ body {
     text-decoration: none;
     transition: background .1s linear, color .1s linear;
     opacity: 0.5;
+    border-radius: 5px;
 
 }
 
