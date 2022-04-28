@@ -13,6 +13,10 @@ body {
     height: 100vh;
     background: url("../acces/img/1.jpg") center no-repeat;
     background-size: cover;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    
 
 }
 
@@ -40,8 +44,6 @@ body {
     justify-content: center;
     width: 100%;
     height: 100vh;
-
-
 
 }
 
@@ -113,9 +115,6 @@ body {
     transition: color .1s linear;
     opacity: 0.8;
 }
-
-
-
 
 .nav_link:hover {
     color: #fff;
@@ -197,31 +196,36 @@ body {
 
 
 .mems {
-
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    max-width: 1600px;
-    margin: 0;
-    padding-bottom: 100px;
+    
+    margin: 100px 0;
+    max-width: 1200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .mems__item {
-    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;  
+   
+    
     
 }
 
 .mems__img {
-    width: 100vw;
-    max-width: 450px;
-    height: 100vh;
-    max-height: 500px;
-    transition: .4s;
+    width: 350px;
+    height: 350px;
+    max-width: 100vw;
+    max-height: 100vh;
+    margin: 5px;
 
 }
 
 .mems__img:hover {
-    transform: scale(1.3);
+    transform: scale(1.1);
     border-radius: 10px;
     box-shadow: 0px 0px 30px 8px rgba(12, 6, 47, 0.35);
 }
